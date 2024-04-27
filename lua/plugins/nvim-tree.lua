@@ -10,6 +10,10 @@ return{
 
             require("nvim-tree").setup({
                 sort_by = "case_sensitive",
+		-- 是否显示git状态
+		git = {
+			enable = true,
+		},
             })
         end,
     }

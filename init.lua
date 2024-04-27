@@ -15,4 +15,8 @@ vim.wo.number = true
 -- vim.wo.colorcolumn = "120"
 
 vim.o.listchars = "lead:‧"
-vim.wo.list = true
+vim.wo.list = false
+
+-- 设置文件格式为UTF-8
+vim.g.encoding = "UTF-8"
+vim.o.fileencoding = "UTF-8"
